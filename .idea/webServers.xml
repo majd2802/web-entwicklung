@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="828d2f61-8ae3-4ac5-b4b1-13b0429db4db" name="Server" url="http://hosting.wi1cm.uni-trier.de">
+        <fileTransfer accessType="FTPS" host="hosting.wi1cm.uni-trier.de" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="acaabe22-f47d-49d8-8975-b0e83b03b610" name="Lokal" url="http://localhost">
+        <fileTransfer mountedRoot="C:\Users\HP\PhpstormProjects\web-entwicklung" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
